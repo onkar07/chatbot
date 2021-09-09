@@ -1,0 +1,19 @@
+            // chat_data.map((msg_data) =>{
+                //     console.log("inside map")
+                //     if(count%2==0){
+                //         count++
+                //         return(
+                //             <div className={style.user_right}>
+                //                 <h6>{msg_data}</h6>
+                //             </div>
+                //         )
+                //     }
+                //     else{
+                //         count++
+                //         return(
+                //             <div className={style.bot_left}>
+                //                 <h6>{msg_data}</h6>
+                //             </div>
+                //         )
+                //     }
+                // })

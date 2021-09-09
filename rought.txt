@@ -1,9 +1,0 @@
-print(match_count)
-            sender_per = match_count/len(input_list)
-            bot_per = match_count/len(items_sep)
-        print("[ Sender : ",sender_per,", rec : ",bot_per, "]", "[total :", sender_per+bot_per,"]")
-        percentage = ((sender_per + bot_per)/2)*100
-        print("per : ",percentage)
-        temp_list.append(percentage)
-        
-        percentage = ((sender_per + bot_per)/2)*100

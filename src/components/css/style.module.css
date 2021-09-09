@@ -1,0 +1,85 @@
+.mainChat{
+    width: 500px;
+}
+.chatbotBox{
+    border: 2px solid black ;
+    height: 600px;
+    width: 500px;
+    position: relative;
+    overflow-x: hidden;
+}
+.operator{
+   width: 500px;
+   position: sticky;
+   bottom: 0;
+}
+.operator input{
+    width: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.753);
+    border-radius: 2px 0px 0px 2px;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    padding: 10px;
+    outline: none;
+}
+.operator button{
+    width: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.753);
+    border-radius: 0px 2px 2px 0px;
+    background: white;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    padding: 10px;
+}
+.operator i{
+    color: rgba(0, 0, 0, 0.493);
+}
+
+.bot_left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.bot_left h6{
+    font-size: 14px;
+    color: white;
+    background-color: rgba(0, 0, 20, 0.892);
+    border-radius: 0px 9px 9px 9px;
+    padding: 15px;
+    max-width: 300px;
+    margin: 2px 2px 2px 5px;
+}
+.user_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.user_right h6{
+    font-size: 14px;
+    background-color: whitesmoke;
+    color: rgba(0, 0, 0, 0.603);
+    border-radius: 9px 0px 9px 9px;
+    padding: 15px;
+    margin: 2px 5px 2px 2px;
+}
+.menuBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 20, 0.952);
+
+}
+.menuBar h3{
+    text-transform: uppercase;
+    color: white;
+}
+h5{
+    color: white;
+    text-align: center;
+    width: 100%;
+}
